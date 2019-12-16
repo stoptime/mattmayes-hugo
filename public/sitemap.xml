@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mattmayes.com/about/</loc>
+    <lastmod>2019-12-15T11:13:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/</loc>
+    <lastmod>2019-12-15T08:44:51-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/tags/dev/</loc>
+    <lastmod>2019-12-14T17:56:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/tags/golang/</loc>
+    <lastmod>2019-12-14T17:56:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/posts/</loc>
+    <lastmod>2019-12-14T17:56:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/posts/2019/rename-sanitize-files-in-dir/</loc>
+    <lastmod>2019-12-14T17:56:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/tags/</loc>
+    <lastmod>2019-12-14T17:56:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/etherfrolics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/jazzconspiracy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattmayes.com/tags/music/</loc>
+  </url>
+  
+</urlset>

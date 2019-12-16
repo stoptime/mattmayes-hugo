@@ -1,3 +1,84 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+## Basic Configuration
+baseurl = "https://mattmayes.com/"
+languageCode = "en"
+
+title = "Matt Mayes from Chicago, IL"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Matt"
+    title = "Matt Mayes from Chicago"
+    description = "Chicago, IL"
+    authorimage = "/img/matty.jpg"
+    dateformat = "Jan 2, 2006"
+    postNavigation = false
+
+    # sidebar, copyright & license
+    # copyright = "htr3n"
+    # license = "CC BY-SA 4.0"
+    # licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    # showBuiltWith = true
+
+    # https://highlightjs.org
+    # highlightjs = true
+    # highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+    custom_css = ["css/custom.css"]
+
+## Social Accounts
+[params.social]
+    github = "stoptime"
+    instagram = "m_mayes"
+    twitter = "stoptime"
+    email = "mattamayes at gmail"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Resume"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
+[[menu.main]]
+    name = "Jazz Conspiracy"
+    identifier = "jazzconspiracy"
+    weight = 300
+    url = "/jazzconspiracy/"
+[[menu.main]]
+    name = "Ether Frolics"
+    identifier = "etherfrolics"
+    weight = 300
+    url = "/etherfrolics/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

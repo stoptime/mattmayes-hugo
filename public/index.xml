@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Mayes on Matt Mayes from Chicago, IL</title>
+    <link>https://mattmayes.com/</link>
+    <description>Recent content in Matt Mayes on Matt Mayes from Chicago, IL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Dec 2019 08:44:51 -0600</lastBuildDate>
+    
+	<atom:link href="https://mattmayes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>More aobut Matt</title>
+      <link>https://mattmayes.com/about/</link>
+      <pubDate>Sun, 15 Dec 2019 11:13:15 -0600</pubDate>
+      
+      <guid>https://mattmayes.com/about/</guid>
+      <description>I&#39;ve also drummed, arranged and recorded several tunes with Jazz Conpiracy (you may have seen us at on of our weekly gigs at Pops or the original Metropolis coffee shop), and Ether Frolics, who where lucky enough to tour Germany, Austria, and Switzerland - in addition to playing some of the great Chicago clubs, some of which no longer exist.
+I also enjoy brewing, playing guitar, &amp;amp; bbq&#39;ing several times a week, weather be damned.</description>
+    </item>
+    
+    <item>
+      <title>Rename and Sanitize Files in a Directory</title>
+      <link>https://mattmayes.com/posts/2019/rename-sanitize-files-in-dir/</link>
+      <pubDate>Sat, 14 Dec 2019 17:56:00 -0600</pubDate>
+      
+      <guid>https://mattmayes.com/posts/2019/rename-sanitize-files-in-dir/</guid>
+      <description>Sometimes you need to rename and &amp;ldquo;sanitize&amp;rdquo; a bunch of files in a directory.
+For me, I had to do things like:
+ Remove spaces. Remove apostrophes, commas, etc In some cases, remove a trailing &amp;ldquo;-&amp;rdquo;  Seemed to be a perfect opportunity to get to know golang a little better.
+Hat-tip to this helpful page on working with files in golang.
+Just be sure to change the directory to the one you want.</description>
+    </item>
+    
+    <item>
+      <title>Ether Frolics</title>
+      <link>https://mattmayes.com/etherfrolics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattmayes.com/etherfrolics/</guid>
+      <description>I joined this band after responding to their add in the Chicago Reader, looking for a drummer. I was pretty much a kid out of school, and these guys really showed me around the whole Chicago scene. We played about every club/bar/venue in the area, and eventually headed over to Europe for a 3 week tour after our first album was released (40k - with the red cover).
+While working on our second album, the band got derailed a bit, and we never got to the final polishing/release stages.</description>
+    </item>
+    
+    <item>
+      <title>Jazz Conspiracy</title>
+      <link>https://mattmayes.com/jazzconspiracy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattmayes.com/jazzconspiracy/</guid>
+      <description>Jazz Conspiracy was born out of the Bloom School of Jazz - where many of us met, studied, practiced - and eventually performed at the Jazz Showcase. We were an actively gigging/recording band from about 2003-2010 or so, being regularly featured for entire weekends at Pops for Champagne.
+Below are some of my favorite tracks - you can listen to all of them for free over at SoundCloud .
+ The Musicians  David Beazley(piano) Marc Piane (acoustic bass) Matt Mayes (drums) Thomas Mucha (trumpet) Trent Harris (saxphones) </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,9 @@
+.highlight pre {
+  padding: .5rem;
+}
+
+@media (min-width: 768px) {
+  .content {
+    max-width: 45rem; 
+  }
+}

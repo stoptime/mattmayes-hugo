@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Matt Mayes from Chicago, IL</title>
+    <link>https://mattmayes.com/posts/</link>
+    <description>Recent content in Posts on Matt Mayes from Chicago, IL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Dec 2019 17:56:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://mattmayes.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rename and Sanitize Files in a Directory</title>
+      <link>https://mattmayes.com/posts/2019/rename-sanitize-files-in-dir/</link>
+      <pubDate>Sat, 14 Dec 2019 17:56:00 -0600</pubDate>
+      
+      <guid>https://mattmayes.com/posts/2019/rename-sanitize-files-in-dir/</guid>
+      <description>Sometimes you need to rename and &amp;ldquo;sanitize&amp;rdquo; a bunch of files in a directory.
+For me, I had to do things like:
+ Remove spaces. Remove apostrophes, commas, etc In some cases, remove a trailing &amp;ldquo;-&amp;rdquo;  Seemed to be a perfect opportunity to get to know golang a little better.
+Hat-tip to this helpful page on working with files in golang.
+Just be sure to change the directory to the one you want.</description>
+    </item>
+    
+  </channel>
+</rss>
