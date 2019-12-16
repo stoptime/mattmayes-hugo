@@ -1,6 +1,7 @@
 {{ partial "header/styles-highlight.html" . }}
 
 {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $optionsCss := (dict "outputStyle" "compressed") }}
 
 {{ $style := resources.Get "scss/hyde-hyde.scss" | toCSS $options | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
@@ -8,8 +9,9 @@
 {{ $printStyle := resources.Get "scss/print.scss" | toCSS $options | fingerprint }}
 <link rel="stylesheet" href="{{ $printStyle.RelPermalink }}" integrity="{{ $printStyle.Data.Integrity }}" media="print">
 
-{{ range .Site.Params.custom_css -}}
-<link rel="stylesheet" href="{{ . | absURL }}">
+{{ range .Site.Params.customCss -}}
+{{ $customStyle := resources.Get . | toCSS $optionsCss | fingerprint }}
+<link rel="stylesheet" href="{{ $customStyle.RelPermalink }}" integrity="{{ $customStyle.Data.Integrity }}">
 {{- end }}
 
 {{ with .Site.Params.toc }}

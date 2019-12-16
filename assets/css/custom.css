@@ -1,0 +1,14 @@
+.highlight pre {
+  padding: .5rem;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: inherit;
+}
+
+@media (min-width: 768px) {
+  .content {
+    max-width: 768px; 
+  }
+}

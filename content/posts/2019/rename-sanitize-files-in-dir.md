@@ -17,7 +17,7 @@ Hat-tip to [this helpful page](https://www.devdungeon.com/content/working-files-
 
 Just be sure to change the `directory` to the one you want.
 
-```go {linenos=table}
+```go {linenos=false}
 package main
 
 import (

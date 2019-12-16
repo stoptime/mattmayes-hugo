@@ -1,5 +1,5 @@
 ---
-title: "Hugo and Wrangling Hyde Hyde"
+title: "Hugo and Wrangling Hyde-Hyde"
 date: 2019-12-15T19:33:33-06:00
 tags: ["hugo", "dev"]
 ---

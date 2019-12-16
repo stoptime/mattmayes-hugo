@@ -42,7 +42,7 @@ theme = "hyde-hyde"
     # Table of contents
     #toc = none, "hugo", or "tocbot"
 
-    custom_css = ["css/custom.css"]
+    customCss = ["css/custom.css"]
 
 ## Social Accounts
 [params.social]
@@ -57,11 +57,11 @@ theme = "hyde-hyde"
     weight = 100
     identifier = "posts"
     url = "/posts/"
-[[menu.main]]
-    name = "Resume"
-    identifier = "portfolio"
-    weight = 200
-    url = "/portfolio/"
+## [[menu.main]]
+##     name = "Resume"
+##     identifier = "portfolio"
+##     weight = 200
+##     url = "/portfolio/"
 [[menu.main]]
     name = "About"
     identifier = "about"
