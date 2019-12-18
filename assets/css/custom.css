@@ -1,5 +1,59 @@
+.sidebar {
+  background-color: #120e50;
+}
+
+.sidebar .site__title {
+  font-size: 2rem;
+}
+
+.item__title--big {
+  font-size: 1.5rem;
+}
+
+figure.right.about {
+  width: 250px;
+  height: auto;
+  float: right;
+  margin: 0 0 .5rem .5rem;
+}
+
+figure img {
+  margin-bottom: 4px;
+}
+
+figure figcaption {
+  background: #efefef;
+  padding: 2px;
+  font-size: .8rem;
+  text-align: center;
+  color: #999;
+}
+
+figure figcaption p {
+  margin: 0;
+}
+
 .highlight pre {
   padding: .5rem;
+}
+
+code {
+  font-size: .8rem;
+}
+
+.highlight pre {
+  overflow-x: scroll;
+}
+
+pre code {
+  white-space: inherit;
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.underline {
+  border-bottom: 1px solid #ddd;
 }
 
 tbody tr:nth-child(odd) td,
@@ -7,8 +61,60 @@ tbody tr:nth-child(odd) th {
   background-color: inherit;
 }
 
+form {
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+.button-center {
+  text-align: center;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid #3ac162;
+  margin: 0 auto 10px;
+}
+@media (max-width: 767px) and (min-width: 320px) {
+  button {
+    width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .content {
     max-width: 768px; 
+  }
+}
+
+@media (min-width: 992px) {
+  .content {
+    max-width: 50rem;
   }
 }

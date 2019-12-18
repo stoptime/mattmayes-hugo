@@ -6,9 +6,9 @@ title = "Matt Mayes from Chicago, IL"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
-# disqusShortname = "your-disqus-shortname"
-# googleAnalytics = "your-google-analytics-id"
-# enableRobotsTXT = true
+disqusShortname = "matt-mayes"
+googleAnalytics = "UA-27793526-1"
+enableRobotsTXT = true
 
 # summarylength = 30
 
@@ -19,7 +19,7 @@ theme = "hyde-hyde"
     author = "Matt"
     title = "Matt Mayes from Chicago"
     description = "Chicago, IL"
-    authorimage = "/img/matty.jpg"
+    authorimage = "/img/matt-brussels-400.jpg"
     dateformat = "Jan 2, 2006"
     postNavigation = false
 
