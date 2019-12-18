@@ -1,6 +1,7 @@
 ---
 title: "Contact Matt"
 showpagemeta: false
+showcomments: false
 ---
 
 If you'd like to get ahold of me, please use the form and I'll get back to you soon as I can, thanks!

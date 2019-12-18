@@ -2,6 +2,7 @@
 title: "About"
 date: 2019-12-15T11:13:15-06:00
 showpagemeta: false
+showcomments: false
 ---
 
 This is my second technical blog after a break for awhile. It might not even be a _purely_ technical blog, as you explore you'll see some other stuff.

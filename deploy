@@ -1,0 +1,9 @@
+#!/bin/sh
+
+USER=stoptime
+HOST=stoptime.webfactional.com             
+DIR=webapps/matt_hugo/   # the directory where your web site files should go
+
+hugo --minify && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0
