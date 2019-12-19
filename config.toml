@@ -53,6 +53,11 @@ enableRobotsTXT = true
 
 ## Main Menu
 [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 50
+    url = "/"
+[[menu.main]]
     name = "Posts"
     weight = 100
     identifier = "posts"

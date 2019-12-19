@@ -1,5 +1,5 @@
 ---
-title: "Rename and Sanitize Files in a Directory"
+title: "Rename and Sanitize Files in a Directory with Golang"
 date: 2019-12-14T17:56:00-06:00
 tags : [ "golang", "dev"]
 ---

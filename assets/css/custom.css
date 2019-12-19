@@ -2,8 +2,13 @@
   background-color: #120e50;
 }
 
-.sidebar .site__title {
+.sidebar .site__title a {
   font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar .site__title a:hover {
+  color: #fff;
 }
 
 .item__title--big {
@@ -102,6 +107,7 @@ button {
   border: 1px solid #3ac162;
   margin: 0 auto 10px;
 }
+
 @media (max-width: 767px) and (min-width: 320px) {
   button {
     width: 100%;
