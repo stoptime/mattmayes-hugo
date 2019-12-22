@@ -4,6 +4,9 @@ date: 2019-12-16T18:01:33-06:00
 tags : [ "dev", "hugo", "go" ]
 ---
 
+**UPDATE:**
+This works the exact same way with scss - on this site I just updated my `config.toml` to point to `scss/custom.scss`.
+
 So you've picked out and installed your [Hugo](https://gohugo.io/) theme, but you just need to tweak a few things here and there, yet you don't see a config setting that allows you add your own css file(s) in config.toml 👎 
 
 In addition to adding your own css file, wouldn't it be great if they were minimized and had the [integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) set too? 

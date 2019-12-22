@@ -1,6 +1,7 @@
 ---
 title: "Jazz Conspiracy"
 tags: ['music']
+showpagemeta: false
 ---
 
 <p>Jazz Conspiracy was born out of the <a href="http://www.bloomschoolofjazz.com/" target="_blank">Bloom School of Jazz</a> - where many of us met, studied, practiced - and eventually performed at the <a href="http://www.jazzshowcase.com/" target="_blank">Jazz Showcase</a>. We were an actively gigging/recording band from about 2003-2010 or so, being regularly featured for entire weekends at <a href="http://popsforchampagne.com/" target="_blank">Pops for Champagne</a>.</p>

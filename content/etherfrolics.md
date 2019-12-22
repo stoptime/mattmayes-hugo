@@ -1,6 +1,7 @@
 ---
 title: "Ether Frolics"
 tags: ["music"]
+showpagemeta: false
 ---
 
 <p>I joined this band after responding to their add in the <a href="https://www.chicagoreader.com/" target="_blank">Chicago Reader</a>, looking for a drummer. I was pretty much a kid out of school, and these guys really showed me around the whole Chicago scene. We played about every club/bar/venue in the area, and eventually headed over to Europe for a 3 week tour after our first album was released (<em>40k</em> - with the red cover).</p>
