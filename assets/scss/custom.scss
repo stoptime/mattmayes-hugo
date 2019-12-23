@@ -12,15 +12,17 @@ $neutral_dark: #e1e2e1;
 
 $opacity_color: rgba(255, 255, 255, 0.5);
 
+$accent: #e65100;
+
 body {
 	background-color: $neutral_light;
 }
 
 a {
-	color: $secondary_dark;
+	color: $light;
 }
 a:hover {
-	color: $secondary_light;
+	color: $accent;
 }
 
 .badge-tag,
@@ -64,11 +66,12 @@ a.badge-tag:focus {
 	font-size: 1.5rem;
 }
 
-figure.right.about {
-	width: 250px;
-	height: auto;
-	float: right;
-	margin: 0 0 .5rem .5rem;
+.post__meta svg {
+	margin-right: 4px;
+}
+
+svg.svg-inline--fa.fa-tags.fa-w-20 {
+	width: 1em;
 }
 
 figure img {
