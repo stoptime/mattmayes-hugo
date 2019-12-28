@@ -19,21 +19,27 @@ body {
 }
 
 a {
-	color: $light;
+	color: $secondary_primary;
+}
+.post a {
+  text-decoration: underline;
 }
 a:hover {
-	color: $accent;
+  color: $accent;
+  text-decoration: none;
 }
 
 .badge-tag,
 a.badge-tag {
-	background-color: $light;
+  background-color: $light;
+  border: 1px solid $light;
 }
 .badge-tag:hover,
 .badge-tag:focus,
 a.badge-tag:hover,
 a.badge-tag:focus {
-	color: $light;
+  color: $light;
+  border-bottom: 1px solid $light;
 }
 
 .sidebar {
