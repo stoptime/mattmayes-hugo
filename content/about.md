@@ -15,7 +15,7 @@ My wife and two noisy cats offer running commentary.
 
 <figure class="about">
   <picture>
-    <source srcset="/img/matty-full.webp" type="image/webp">
+    <source data-srcset="/img/matty-full.webp" type="image/webp">
     <img data-src="/img/matty-full.jpeg" alt="Matty says Hi!" class="lazyload">
   </picture>
   <figcaption>
