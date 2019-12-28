@@ -12,7 +12,10 @@
           {{ $strippedSlash := ($.Site.Params.authorimage | replaceRE "^(/)+(.*)" "$2") }}
           {{ $authorImage := (printf "%s%s" $.Site.BaseURL $strippedSlash) }}
           <div class="author-image">
-            <img src="{{$authorImage}}" alt="Author Image" class="img--circle img--headshot element--center">
+            <picture>
+              <source srcset="{{$authorImage}}.webp" type="image/webp">
+              <img data-src="{{$authorImage}}.jpg" alt="Matty Mayes" class="img--circle img--headshot element--center lazyload">
+            </picture>
           </div>
           {{ end }}
         {{ end }}

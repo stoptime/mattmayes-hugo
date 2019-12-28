@@ -13,4 +13,12 @@ I also enjoy brewing, playing guitar, & bbq'ing several times a week, weather be
 
 My wife and two noisy cats offer running commentary.
 
-{{< figure src="/img/matty-full.jpeg" alt="Matty says Hi!" caption="Chillin&rsquo; in Brussels." class="about" >}}
+<figure class="about">
+  <picture>
+    <source srcset="/img/matty-full.webp" type="image/webp">
+    <img data-src="/img/matty-full.jpeg" alt="Matty says Hi!" class="lazyload">
+  </picture>
+  <figcaption>
+    <p>Chillin’ in Brussels.</p>
+  </figcaption>
+</figure>
