@@ -4,14 +4,14 @@
 {{ $optionsCss := (dict "outputStyle" "compressed") }}
 
 {{ $style := resources.Get "scss/hyde-hyde.scss" | toCSS $options | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 
 {{ $printStyle := resources.Get "scss/print.scss" | toCSS $options | fingerprint }}
 <link rel="stylesheet" href="{{ $printStyle.RelPermalink }}" integrity="{{ $printStyle.Data.Integrity }}" media="print">
 
 {{ range .Site.Params.customCss -}}
 {{ $customStyle := resources.Get . | toCSS $optionsCss | fingerprint }}
-<link rel="stylesheet" href="{{ $customStyle.RelPermalink }}" integrity="{{ $customStyle.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $customStyle.RelPermalink }}" integrity="{{ $customStyle.Data.Integrity }}" media="screen">
 {{- end }}
 
 {{ with .Site.Params.toc }}

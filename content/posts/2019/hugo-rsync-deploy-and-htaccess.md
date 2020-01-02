@@ -26,11 +26,11 @@ You might be wondering what the `--delete` flag does. That an [rsync](https://li
 
 ## .htaccess file and 404 pages
 
-At WebFaction you can setup a "static" app - which is meant to serve static files very quickly, so you can basically setup your own cdn. This sounded like a nice option for Hugo. However, the tradeoff is that .htaccess files won't get picked up. I really like friendly 404 pages, so I chose to use a regular Apache app with the typical mods loaded, and with Apache I can now redirect 404's like this in .htaccess:
+At WebFaction you can setup a "static" app - a barebones Apache app meant for speed. This sounded like a nice option for Hugo. However, the tradeoff is that .htaccess files won't get picked up. I really like friendly 404 pages, so I chose to use a regular Apache app with the typical mods loaded, and I can now redirect 404's like this in .htaccess:
 
 ```ErrorDocument 404 /404.html```
 
-Instruction on other web servers [here](https://gohugo.io/templates/404/).
+[Instruction on other web servers here](https://gohugo.io/templates/404/).
 
 The one thing that tripped me up was that you need to make sure you put the .htaccess file in your `static` directory, otherwise Hugo will delete it if it's in your root directory - I noticed this on my first deploy:
 
@@ -43,6 +43,11 @@ Once I moved it into the static dir it was picked up, deployed and working. Last
 
 ### Disqus won't work in your local environment 
 
-If you use Disqus for comments - they won't work unless you're on your production site. Just FYI there. 
+If you use Disqus for comments - they won't work unless you're on your production site. Just FYI there.
 
 Cheers and happy Hugo'ing! So far I'm enjoying the ride 🍻
+
+#### 1/1/2020 Update
+I ditched Disqus after noticing all the crap it injects - my performance scores immediately went up.
+
+I've also taken advantage of [Cloudflare's free plan.](https://www.cloudflare.com/plans/) for a little extra boost.

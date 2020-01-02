@@ -14,6 +14,9 @@ $opacity_color: rgba(255, 255, 255, 0.5);
 
 $accent: #e65100;
 
+// for accessibility
+$grey_white_contrast: #727070;
+
 body {
 	background-color: $neutral_light;
 }
@@ -70,6 +73,11 @@ a.badge-tag:focus {
 
 .item__title--big {
 	font-size: 1.5rem;
+}
+
+.item__date,
+.post__meta {
+  color: $grey_white_contrast;
 }
 
 .post__meta svg {
