@@ -19,6 +19,7 @@ enableRobotsTXT = true
     author = "Matt"
     title = "Matt Mayes from Chicago"
     description = "Chicago, IL"
+    metaDescription = "Matt lives in Chicago and likes tech, music, and bbq."
     # jpg and webp must exist!
     authorimage = "/img/matt-brussels-400"
     dateformat = "Jan 2, 2006"
