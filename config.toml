@@ -1,9 +1,9 @@
 ## Basic Configuration
-baseurl = "https://mattmayes.com/"
+baseurl = "https://www.mattmayes.com/"
 languageCode = "en"
 
 title = "Matt Mayes from Chicago, IL"
-theme = "hyde-hyde"
+theme = "hyde-hyde-mateo"
 
 ## Hugo Built-in Features
 # disqusShortname = "matt-mayes"

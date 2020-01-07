@@ -48,7 +48,7 @@ If you use Disqus for comments - they won't work unless you're on your productio
 Cheers and happy Hugo'ing! So far I'm enjoying the ride 🍻
 
 #### 1/1/2020 Update
-I ditched Disqus after noticing all the crap it injects - my performance scores immediately went up. Uncertain if I need a commenting platform or not, if you have an opinion please [let me know](/contact);
+I ditched Disqus after noticing all the crap it injects - my performance scores immediately went up. Uncertain if I need a commenting platform or not, if you have an opinion please [let me know](/contact).
 
 I've also taken advantage of [Cloudflare's free plan.](https://www.cloudflare.com/plans/) for a little extra boost.
 
