@@ -48,6 +48,34 @@ If you use Disqus for comments - they won't work unless you're on your productio
 Cheers and happy Hugo'ing! So far I'm enjoying the ride 🍻
 
 #### 1/1/2020 Update
-I ditched Disqus after noticing all the crap it injects - my performance scores immediately went up.
+I ditched Disqus after noticing all the crap it injects - my performance scores immediately went up. Uncertain if I need a commenting platform or not, if you have an opinion please [let me know](/contact);
 
 I've also taken advantage of [Cloudflare's free plan.](https://www.cloudflare.com/plans/) for a little extra boost.
+
+I've also added some caching directives, so my .htaccess now looks like this (may still tweak the cache lengths):
+
+```apache
+ErrorDocument 404 /404.html
+
+<ifModule mod_expires.c>  
+  ExpiresActive On  
+  ExpiresDefault "access plus 5 seconds"  
+  ExpiresByType image/x-icon "access plus 2592000 seconds"  
+  ExpiresByType image/jpeg "access plus 2592000 seconds"  
+  ExpiresByType image/png "access plus 2592000 seconds"  
+  ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType image/webp "access plus 2592000 seconds" 
+  ExpiresByType image/svg+xml "access plus 2592000 seconds"
+  ExpiresByType application/x-font-ttf "access plus 2592000 seconds"
+  ExpiresByType application/x-font-truetype "access plus 2592000 seconds"
+  ExpiresByType application/x-font-opentype "access plus 2592000 seconds"
+  ExpiresByType application/x-font-woff "access plus 2592000 seconds"
+  ExpiresByType application/font-woff2 "access plus 2592000 seconds"
+  ExpiresByType application/vnd.ms-fontobject "access plus 2592000 seconds"
+  ExpiresByType application/font-sfnt "access plus 2592000 seconds"
+  ExpiresByType text/css "access plus 604800 seconds"  
+  ExpiresByType text/javascript "access plus 216000 seconds"  
+  ExpiresByType application/javascript "access plus 216000 seconds"  
+  ExpiresByType application/x-javascript "access plus 216000 seconds"   
+</ifModule> 
+```
