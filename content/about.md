@@ -18,7 +18,4 @@ My wife and two noisy cats offer running commentary.
     <source data-srcset="/img/matty-full.webp" type="image/webp">
     <img data-src="/img/matty-full.jpeg" alt="Matty says Hi!" class="lazyload">
   </picture>
-  <figcaption>
-    <p>Chillin’ in Brussels.</p>
-  </figcaption>
 </figure>
