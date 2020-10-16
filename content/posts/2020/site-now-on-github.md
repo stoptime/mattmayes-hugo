@@ -1,5 +1,5 @@
 ---
-title: "Site Now on Github"
+title: "Site Now on Github :)"
 date: 2020-10-15T12:13:24-05:00
 tags : [ "dev", "hugo" ]
 draft: false
