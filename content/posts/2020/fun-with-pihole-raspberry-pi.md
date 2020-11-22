@@ -34,7 +34,7 @@ Many directions say to copy a file into the ssh folder, but here's what I did in
 sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
-Now the sytem is started and will re-start after a shutdown/re-boot.
+Now the ssh service is started and will re-start after a shutdown/re-boot.
 
 ### The AT&T Pacer Routers Suck ###
 Installing Pi-hole couldn't have been easier - and getting the entire network to route its DNS though it _should_ be easy. But my Pace Plc 5268AC modem/router doesn't let you change the DNS servers, nor does it have a passthrough option, or bridge mode. Hours of Googling ensue - and what I found was this.
