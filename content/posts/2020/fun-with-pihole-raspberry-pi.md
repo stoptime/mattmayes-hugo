@@ -48,7 +48,7 @@ Then I read some info about how you can limit the DHCP addresses the ATT router 
 
 While this seemed promising, and I'm always willing to f*ck things up in the name of learning, I decided to stop here b/c based on what I was reading about these ATT routers, resetting back to defaults _doesn't always work_ - and the last thing my household needs is to lose internet during a pandemic b/c my router wouldn't purge my incorrect decisions. 
 
-What I did manage to do through the ATT router UI is give the Pi-hole a static IP so that it is always found by our computers. From here I just set each invididual computer/device to use that IP for its DNS server. Note that in iOS you can assign DNS servers for each network you join - so our phones now get to use Pi-hole while on the home network (I'm sure Android has the same option). The only downside is that our laptops will need a manual change of the DNS each time we leave/return - but that's a small price to pay and I'm fine with that, for now at least. 
+What I did manage to do through the ATT router UI was give the Pi-hole a static IP so that it is always found on our network. From here I just set each invididual computer/device to use that IP for its DNS server. Note that in iOS you can assign DNS servers for each network you join - so our phones now get to use Pi-hole while on the home network (I'm sure Android has the same option). The only downside is that our laptops will need a manual change of the DNS each time we leave/return - but that's a small price to pay and I'm fine with that, for now at least. 
 
 I am thinking of upgrading our Internet, so I will def be taking this router experience into consideration when I do that.
 
@@ -70,4 +70,4 @@ For example - it would be lovely if this blocked ads on Facebook and the like, b
 
 <hr/>
 
-In all, I gotta say, this was super fun and I learned a thing or two about networking and related devices. It's seems to have really sped up our browing at home, and has me thinking about using Pi-hole with OpenVPN for when we're not at home. And should we make changes to our home network, I know what to look for and what questions to ask equipment-wise. Cheers 🍺
+In all, I gotta say, this was super fun and I learned a thing or two about networking and related devices. It seems to have really sped up our browing at home, and has me thinking about using Pi-hole with OpenVPN for when we're not at home. And should we make changes to our home network, I know what to look for and what questions to ask equipment-wise. Cheers 🍺
