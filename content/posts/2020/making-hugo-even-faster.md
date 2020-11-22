@@ -7,6 +7,8 @@ showpagemeta: true
 showcomments: true
 ---
 
+> **UPDATE** this site is now on [Netlify](https://www.netlify.com/), which is _frickin' awesome (and free for basic sites)_ but if you're on another host, especially one that uses Apache, this might help you.
+
 We all want our mobile [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) score to be in the 90s right? There's more to it than tossing on that old flannel, here are some things that helped me.
 
 ## Take advantage of Free Cloudflare
