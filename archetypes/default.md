@@ -4,6 +4,5 @@ date: {{ .Date }}
 tags : [ "dev" ]
 draft: true
 showpagemeta: true
-showcomments: true
+showcomments: false
 ---
-
