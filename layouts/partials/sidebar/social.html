@@ -1,31 +1,36 @@
 <section class="social">
 	{{ with .Site.Params.social.twitter }}
-	<a href="https://twitter.com/{{.}}" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	<a aria-label="My Twitter account" href="https://twitter.com/{{.}}" rel="me"><i class="fab fa-twitter fa-lg"
+			aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.facebook }}
 	<a href="https://facebook.com/{{.}}" rel="me"><i class="fab fa-facebook-f"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.github }}
-	<a href="https://github.com/{{.}}" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	<a aria-label="My GitHub page" href="https://github.com/{{.}}" rel="me"><i class="fab fa-github fa-lg"
+			aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.bitbucket }}
 	<a href="https://bitbucket.org/{{.}}" rel="me"><i class="fab fa-bitbucket fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
 	{{ $gitlab_domain := "gitlab.com" }}
 	{{ with .Site.Params.social.custom_gitlab_domain }}
-		{{ $gitlab_domain = . }}
+	{{ $gitlab_domain = . }}
 	{{ end }}
 	{{ with .Site.Params.social.gitlab }}
 	<a href="https://{{ $gitlab_domain }}/{{.}}" rel="me"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.instagram }}
-	<a href="https://instagram.com/{{.}}" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	<a aria-label="My Instagram" href="https://instagram.com/{{.}}" rel="me"><i class="fab fa-instagram fa-lg"
+			aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.linkedin }}
-	<a href="https://linkedin.com/in/{{.}}" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	<a aria-label="My LinkedIn page" href="https://linkedin.com/in/{{.}}" rel="me"><i class="fab fa-linkedin fa-lg"
+			aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.stackoverflow }}
-	<a href="https://stackoverflow.com/users/{{.}}" rel="me"><i class="fab fa-stack-overflow fa-lg" aria-hidden="true"></i></a>
+	<a href="https://stackoverflow.com/users/{{.}}" rel="me"><i class="fab fa-stack-overflow fa-lg"
+			aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.medium}}
 	<a href="https://medium.com/@{{.}}" rel="me"><i class="fab fa-medium fa-lg" aria-hidden="true"></i></a>
@@ -43,6 +48,6 @@
 	&nbsp;<a href="https://about.me/{{.}}"><i class="fas fa-address-card fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.email }}
-	<a href="/contact" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	<a aria-label="Contact me" href="/contact" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
 </section>
